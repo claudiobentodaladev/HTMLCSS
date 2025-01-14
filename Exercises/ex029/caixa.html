@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grouping tags</title>
+</head>
+<style>
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        background-color:blueviolet;
+        margin: 0px;
+    }
+    header{
+        background-color:rgb(181, 167, 235);
+        padding: 10px;
+        margin: 10px;
+        border-radius: 20px;
+    }
+    nav{
+        background-color: #0000ff63;
+        padding: 10px;
+        box-shadow: inset 1px 2px 4px 2px rgba(0, 0, 0, 0.452);    }
+    nav > a{
+        text-decoration: none;
+        font-weight: bold;
+        margin-right: 30px;
+    }
+    nav >a:hover{
+        color: #0000ff63;
+        font-weight:900;
+        text-decoration:line-through;
+    }
+    nav > a:active{
+        color: #8c00ff;
+    }
+    main{
+        background-color:rgba(0, 0, 255, 0.356);
+        padding: 10px;
+        margin: 10px;
+        border-radius: 10px;
+    }
+    article{
+        background-color: #8c00ff;
+    }
+    article > aside{
+        background-color: #5f00ad ;
+    }
+    footer{
+        background-color: black;
+        color: white;
+        padding: 5px;
+        margin: 0px;
+        border: 3px;
+        text-align: center;
+        font-weight: bolder;
+    }
+    footer > p{
+        margin: 0px;
+    }
+    div#bola{
+        width: 100px;
+        height: 100px;
+        margin: 10px;
+        border-radius: 50%;
+        background-color: #5f00ad;
+    }
+</style>
+<body>
+    <header>
+        <h1>My site</h1>
+        <nav>
+            <a href="#">one</a>
+            <a href="#">two</a>
+            <a href="#">three</a>
+            <a href="#">four</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>NEWS</h2>
+            <section>
+                <article>
+                    <h3>Any content about tecnology</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem facilis sequi modi recusandae, nostrum dolorem quo id obcaecati harum inventore magni saepe numquam? Architecto sapiente odit quas magnam veritatis sit?</p>
+                    <aside>this content was whrite by claudio dala</aside>
+                </article>
+            </section>
+        </section>
+    </main>
+    <footer><p>this site was created by claudio dala &copy;2024</p></footer>
+    <div id="bola"></div>
+</body>
+</html>
