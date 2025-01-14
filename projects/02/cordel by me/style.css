@@ -1,0 +1,12 @@
+@charset "UTF-8";
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body, html{
+    min-width: 100vw;
+}
+header{
+    background-color: black;
+    
+}
