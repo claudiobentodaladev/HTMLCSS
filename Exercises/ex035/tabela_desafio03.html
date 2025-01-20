@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+</head>
+<style>
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    thead{
+        background-color: gray;
+    }
+    table{
+        border-collapse: collapse;
+        width: 500px;
+    }
+    th#typemedium{
+        background-color: gray;
+    }
+    th.typemedium,thead,td.typemedium{
+        background-color: gray;
+        color: white;
+    }
+
+    td,th{
+        border: 1px solid black;
+        padding: 10px;
+    }
+</style>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th rowspan="3">Area</th>
+                <th rowspan="3">Subject</th>
+                <th colspan="2">Note</th>
+                <th rowspan="3">Medium</th>
+            </tr>
+            <tr>
+                <th>Note 1</th>
+                <th>Note 2</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="4">Exatas</th>
+                <td>Matematica</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td>Fisic</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td>Quimica</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td>Biologia</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <th colspan="4" class="typemedium">Medias de Exatas</th>
+                <td class="typemedium">0.0</td>
+            </tr>
+            <tr>
+                <th rowspan="2">Humanas</th>
+                <td>Historia</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td>Geografia</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <th colspan="4" class="typemedium">Medias Humanas</th>
+                <td class="typemedium">0.0</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
