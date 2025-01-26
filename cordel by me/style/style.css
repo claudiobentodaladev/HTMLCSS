@@ -1,0 +1,71 @@
+@charset "UTF-8";
+*{
+    padding: 0px;
+    margin: 0px;
+}
+:root{
+    --colorfont: white;
+    --colornoimg: white;
+    --colorback: black;
+    --font1:Verdana, Geneva, Tahoma, sans-serif;
+    --font2: cursive;
+    --font3: cursive;
+}
+header{
+    background-color: var(--colorback);
+    color: var(--colorfont);
+    padding: 40px 0px;
+    text-align: center;
+}
+header >h1{
+    font-family: var(--font2);
+    text-transform: capitalize;
+}
+header > p{
+    font-family: var(--font1);
+}
+header a, footer a{
+    color: var(--colorfont);
+    font-family: var(--font2);
+    text-decoration: none;
+}
+header a:hover, footer a:hover{
+    text-decoration: underline;
+}
+section{
+    font-family: var(--font3);
+    padding: 80px;
+}
+section >p{
+    margin: 0px 0px 0px 30px;
+    line-height: 40px;
+}
+section.normal{
+    background-color: var(--colornoimg);
+    font-weight: bold;
+}
+section.image{
+    background-position: right center;
+    background-attachment: fixed;
+    background-size: cover;
+    color: var(--colorfont);
+}
+section.image >p{
+    width: 300px;
+    padding: 20px;
+    border-radius: 25px 0px;
+    text-shadow: 3px 3px 1px black;
+    background-color: rgba(0, 0, 0, 0.267);
+}
+section#img1{
+    background-image: url(../img/background001.jpg);
+}
+section#img2{
+    background-image: url(../img/background002.jpg);
+}
+footer{
+    background-color: var(--colorback);
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
