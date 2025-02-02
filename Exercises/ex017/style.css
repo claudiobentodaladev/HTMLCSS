@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+body {
+    background-color: red;
+}
+
+p {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: aqua;
+    
+}
