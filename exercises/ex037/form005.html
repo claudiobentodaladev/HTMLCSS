@@ -15,8 +15,8 @@
    <form action="cadastro.php" method="get" autocomplete="on">
         <fieldset>
             <legend>Dados pessoai</legend>
-            <label for="inome" >Nome Completo</label>
-            <input type="text" name="nome" id="inome" autocomplete="name" placeholder="ex.:claudio" required><br>
+            <label for="inome">Nome Completo</label>
+            <input type="text" name="nome" id="inome" autocomplete="name" placeholder="ex.:claudio" minlength="8" maxlength="25" required><br>
             <label for="inas">Data de Nascimento</label>
             <input type="date" name="nas" id="inas" required>
         </fieldset>
@@ -38,9 +38,9 @@
         <fieldset>
             <legend>Contactos</legend>
             <label for="iemael">E-mael</label>
-            <input type="email" name="emael" id="iemael" autocomplete="email" placeholder="emael@exemple.com" required><br>
+            <input type="email" name="emael" id="iemael" autocomplete="email" placeholder="emael@exemple.com" minlength="6" required><br>
             <label for="itel">Telefone</label>
-            <input type="tel" name="tel" id="itel" autocomplete="tel" placeholder="+244 910 100 100">
+            <input type="tel" name="tel" id="itel" autocomplete="tel" placeholder="+1 910 100 100" min="9" max="9">
         </fieldset>
     <div>
         <input type="submit" value="Enviar">
