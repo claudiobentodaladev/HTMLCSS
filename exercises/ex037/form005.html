@@ -12,24 +12,40 @@
 </head>
 <body>
     <h1>Exemplo de Formulario</h1>
-    <form action="cadastro.php" method="get" autocomplete="on">
+   <form action="cadastro.php" method="get" autocomplete="on">
         <fieldset>
-            <legend>Sexo</legend>
-            <input type="radio" name="sexo" id="imas" value="M"><label for="imas">Masculino</label>
-            <input type="radio" name="sexo" id="ifem" value="F"><label for="ifem">Femenino</label>
+            <legend>Dados pessoai</legend>
+            <label for="inome" >Nome Completo</label>
+            <input type="text" name="nome" id="inome" autocomplete="name" placeholder="ex.:claudio" required><br>
+            <label for="inas">Data de Nascimento</label>
+            <input type="date" name="nas" id="inas" required>
         </fieldset>
         <fieldset>
-            <legend>Esportes Favoritos</legend>
-            <input type="checkbox" name="fut" id="ifut"> <label for="ifut">Futebol</label> <br>
-            <input type="checkbox" name="bas" id="ibas"> <label for="ibas">Basquebol</label> <br>
-            <input type="checkbox" name="ten" id="iten"> <label for="iten">Ténis</label> <br>
-            <input type="checkbox" name="and" id="iand"> <label for="iand">Andebol</label> <br>
-            <input type="checkbox" name="Cic" id="icic"> <label for="icic">Ciclismo</label>
- <br>        </fieldset>
-        <div>
-            <input type="submit" value="Enviar">
-            <input type="reset" value="Limpar">
-        </div>
-    </form>
+            <legend>Experiêcia</legend>
+            <input type="radio" name="exp" id="ijunior" value="j"><label for="ijunior">Junior</label>
+            <input type="radio" name="exp" id="ipleno" value="p"><label for="ipleno">Pleno</label>
+            <input type="radio" name="exp" id="isenior" value="s"><label for="isenior">Senior</label>
+        </fieldset>
+        <fieldset>
+            <legend>Linguagem de programação favoritas</legend>
+            <input type="checkbox" name="c" id="ic"><label for="ic">C</label><br>
+            <input type="checkbox" name="javascript" id="ijavascript"><label for="ijavascript">Javascript</label> <br>
+            <input type="checkbox" name="python" id="ipython"><label for="ipython">Python</label><br>
+            <input type="checkbox" name="php" id="iphp"><label for="iphp">PHP</label><br>
+            <input type="checkbox" name="r" id="ir"><label for="ir">R</label><br>
+            <input type="checkbox" name="java" id="ijava"><label for="ijava">Java</label>
+        </fieldset>
+        <fieldset>
+            <legend>Contactos</legend>
+            <label for="iemael">E-mael</label>
+            <input type="email" name="emael" id="iemael" autocomplete="email" placeholder="emael@exemple.com" required><br>
+            <label for="itel">Telefone</label>
+            <input type="tel" name="tel" id="itel" autocomplete="tel" placeholder="+244 910 100 100">
+        </fieldset>
+    <div>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+    </div>
+   </form>
 </body>
 </html>
