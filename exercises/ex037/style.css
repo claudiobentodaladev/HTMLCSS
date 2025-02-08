@@ -10,3 +10,6 @@ div{
 fieldset{
     width: 40vw;
 }
+output{
+    font-weight: bolder;
+}
