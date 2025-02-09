@@ -6,3 +6,6 @@ body {
     background-image: url(../img/cev-portrait.jpg);
     background-position: center bottom;
 }
+h1{
+    font-size: 1.15em;
+}

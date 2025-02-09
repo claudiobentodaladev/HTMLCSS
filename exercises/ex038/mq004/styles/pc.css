@@ -1,0 +1,10 @@
+@charset "UTF-8" ;
+    /*desktop*/
+body{
+    background-image: url(../img/back-pc.jpg);
+}
+img#phone{ display: none;}
+img#tablet{ display: none;}
+img#print{ display: none;}
+img#pc{ display: block;}
+img#tv{ display: none;}
