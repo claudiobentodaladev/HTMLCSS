@@ -17,5 +17,7 @@ html, body{
 h1{
     color: white;
     text-shadow: 2px 2px 0px #14249b;
+    text-transform:capitalize;
+    text-align: center;
     padding: 10px;
 }
