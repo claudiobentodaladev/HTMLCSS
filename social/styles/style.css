@@ -24,19 +24,19 @@ main{
 #phone{
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 53%;
     background: unset;
     transform: translate(-50%,-50%);
-    height: 627px;
-    width: 311px;
+    height: 628px;
+    width: 422px;
     background: url('../img/frame-iphone.png') no-repeat;
 }
 #tela{
     position: relative;
-    top: 78px;
-    left: 19px;
-    width: 270px;
-    height: 471px;
+    top: 12px;
+    left: 14px;
+    width: 281px;
+    height: 600px;
 }
 #social-midia{
     text-align: right;
