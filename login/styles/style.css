@@ -12,8 +12,9 @@
 }
 
 html,body{
-    background-image: url(../image/background-parede.jpg);
+    background-image: url(../image/background-world.jpg);
     background-size: cover;
+    background-position: center center;
     width: 100vw;
 }
 main{
@@ -57,7 +58,7 @@ form{
 }
 i{
     position: absolute;
-    top: 7%;
+    top: -2%;
     left: 1.7%;
 }
 
