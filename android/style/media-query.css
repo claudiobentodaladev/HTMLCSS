@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) {
+    i#imenu{
+        display: none;
+    }
+    menu{
+        background-color: var(--cor5);
+        display: block;
+    }
+    menu ul{
+        padding: 5px 0px;
+    }
+    menu li{
+        display: inline-block;
+        margin-left: 10px;
+    }
+    menu a{
+        border-radius: 5px;
+        border: 0px;
+    }
+
+    main > img#piqdan{
+        display: none;
+    }
+    main > img#piqirina{
+        display: none;
+    }
+    main > img#bigdan{
+        display: block;
+    }
+    main > img#bigirina{
+        display: block;
+    }
+}

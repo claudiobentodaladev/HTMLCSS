@@ -7,21 +7,24 @@
     <title>Como surgiu o android</title>
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/media-query.css">
 </head>
-<body>
+<body onresize="mudouTamanho()">
     <header>
         <h1>Curiosidades de Tecnologia</h1>
         <p>Tudo aquilo que você sempre quis saber sobre o mundo Tech, em um único lugar</p>
     </header>
-    
-    <div id="nav">
-        <nav>
-            <a href="#">Home</a>
-            <a href="#">Notícias</a>
-            <a href="#">Curiosidades</a>
-            <a href="#">Fale conosco</a>
-        </nav>
-    </div>
+    <i id="imenu" class="material-icons" onclick="clickMenu()">menu</i>
+        <menu id="itens">
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a>
+                    <li><a href="#">Notícias</a>
+                    <li><a href="#">Curiosidades</a>
+                    <li><a href="#">Fale conosco</a>
+                </ul>
+            </nav>
+        </menu>
     <main>
         <h1>História do Mascote do Android</h1>
         <article>
@@ -44,10 +47,8 @@
                         para a criação de um mascote.
                 </p>
             </ariticle>
-            <picture>
-                <source media="(max-width: 670px)" srcset="img/dan-droids-pq.png">
-                <img src="img/dan-droids.png" alt="primeira mascote do android">
-            </picture>
+                <img src="img/dan-droids-pq.png" id="piqdan" alt="primeira mascote do android">
+                <img src="img/dan-droids.png" id="bigdan" alt="primeira mascote do android">
             <p>
                 Essa primeira versão bizarra até foi batizada em homenagem ao seu criador:
                  seriam os <strong>Dandroids</strong>.
@@ -61,11 +62,8 @@
                   do Google, ficou com a missão de representar o pequeno robô de uma maneira
                    mais agradável.
             </p>
-                <picture>
-                    <source media="(max-width: 670px)" srcset="img/irina-blok-pq.jpg">
-                    <img src="img/irina-blok.jpg" alt="irina blok criadora do bugdroid">
-                </picture>
-
+                    <img src="img/irina-blok-pq.jpg" id="piqirina"  alt="irina blok criadora do bugdroid">
+                    <img src="img/irina-blok.jpg" id="bigirina" alt="irina blok criadora do bugdroid">
             <p>
                 A ideia principal da Irina era representar tudo graficamente com poucos traços
                  e de forma mais chapada. O desenho também deveria gerar identificação rápida
@@ -127,5 +125,22 @@
     <footer>
         <p>This website was created by Claudio Dala &copy;2024</p>
     </footer>
+    <script>
+        function mudouTamanho(){
+            if(window.innerWidth >= 768 ){
+                itens.style.display = 'block'
+            } else{
+                itens.style.display = 'block'
+            }
+        }
+        function clickMenu() {
+             if (itens.style.display == 'block') {
+
+                 itens.style.display = 'none'
+            } else{
+                itens.style.display = 'block'
+            }
+        }
+    </script>
 </body>
 </html>
