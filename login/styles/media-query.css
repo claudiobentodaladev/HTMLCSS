@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) and  (max-width: 1024px) {
+    section#login{
+        width: 80vw;
+        padding: 0px;
+        overflow: hidden;
+    }
+    section#login > div#other{
+        float: right;
+        width: 30%;
+        height: 100%;
+        background-color: black;
+    }
+    section#login > div#form{
+        padding: 10px;
+        float: left;
+        width: 65%;
+    }
+
+    h1,p{
+        font-size: 2.5em;
+    }
+}
+
+@media screen and (min-width: 993px) {
+    section#login{
+        width: 950px;
+    }
+    section#login > div#other{
+        float: right;
+        width: 50%;
+        height: 100%;
+        background-color: black;
+        padding: 0px;
+    }
+    section#login > div#form{
+        padding: 10px;
+        float: left;
+        width: 45%;
+    }
+}

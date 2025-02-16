@@ -5,25 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="styles/style.css">
-    <link rel="stylesheet" href="styles/media-query.css" media="screen and(min-width: 768px)">
+    <link rel="stylesheet" href="styles/media-query.css">
 </head>
 <body>
     <main>
         <section id="login">
-            <h1>login</h1>
-            <p>welcome again!</p>
-            <form action="login.php" method="post">
-                <div id="iemael">
-                    <i for="iemael" id="emael" class="material-icons">emael</i>
-                    <input type="email" name="emael" id="iemael" class="box" autocomplete="email" required>
-                </div>
-                <div id="ipass">
-                    <i for="iemael" id="pass" class="material-icons">key</i>
-                    <input type="password" name="password" id="ipass" class="box" minlength="8" required>
-                </div>
-                <input type="submit" id="enviar" value="Login">
-            </form>
-            <a href="#" target="_self" id="forget">forget the password?</a>
+            <div id="other">
+                <h1>login</h1>
+                <p>welcome again!</p>
+            </div>
+            <div id="form">
+                <form action="login.php" method="post">
+                    <div id="iemael">
+                        <i for="iemael" id="emael" class="material-icons">emael</i>
+                        <input type="email" name="emael" id="iemael" class="box" autocomplete="email" required>
+                    </div>
+                    <div id="ipass">
+                        <i for="iemael" id="pass" class="material-icons">key</i>
+                        <input type="password" name="password" id="ipass" class="box" minlength="8" required>
+                    </div>
+                    <input type="submit" id="enviar" value="Login">
+                </form>
+                <a href="#" target="_self" id="forget">forget the password?</a>
+            </div>
         </section>
     </main>
 </body>
