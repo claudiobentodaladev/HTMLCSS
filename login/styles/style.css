@@ -8,7 +8,8 @@
 
 :root{
     --box: black;
-    --bf: #8b8b8b;
+    --bf: #69729c94;
+    --letter: #000052;
 }
 
 html,body{
@@ -23,10 +24,19 @@ main{
 }
 
 h1,p{
+    color: var(--letter);
     margin: 10px; 
     text-transform: capitalize;
     text-align: center;
-    color: var(--bf);
+}
+p{
+    font-weight: bold;
+}
+i{
+    position: absolute;
+    top: -2%;
+    left: 1.7%;
+    color: var(--letter);
 }
 section#login{
     position: absolute;
@@ -56,11 +66,6 @@ form{
     border-radius: 10px;
     border: transparent;
 }
-i{
-    position: absolute;
-    top: -2%;
-    left: 1.7%;
-}
 
 div#ipass,div#iemael,#forget{
     display: block;
@@ -83,7 +88,7 @@ div#ipass,div#iemael,a#forget{
     height: 40px;
 }
 #enviar{
-    padding: 15px;
+    padding: 10px;
     width: 255px;
     height: 50px;
     font-size: 20px;
@@ -93,6 +98,7 @@ div#ipass,div#iemael,a#forget{
 #enviar,#forget{
     border-radius: 10px;
     border: transparent;
+    color: var(--letter);
 }
 
 .box{
@@ -110,7 +116,6 @@ div#ipass,div#iemael,a#forget{
     margin: auto;
     text-align: center;
     background-color: var(--box);
-    color: var(--bf);
     text-decoration: none;
     font-weight: bolder;
     background-position: bottom center;
