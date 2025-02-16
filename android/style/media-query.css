@@ -1,6 +1,19 @@
 @charset "UTF-8";
 
 @media screen and (min-width: 768px) {
+    header > h1{
+        font-weight: normal;
+        color: var(--cor0);
+        font-family: var(--font-destaque);
+        margin-bottom: 20px;
+        font-size: 3em;
+        text-shadow: 4px 2px 1px rgba(0, 0, 0, 0.404);
+    }
+    header > p{
+        font-size: 1.2em;
+        max-width: 600px;
+    }
+
     i#imenu{
         display: none;
     }
