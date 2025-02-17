@@ -106,11 +106,11 @@ input.box{
     top: -28%;
     left: 19%;
     width: 193px;
-    padding: 20px 0px;
+    padding: 20px 5px 20px 5px;
     background-color: var(--bf);
     color: white;
-    font-weight: bold;
-    padding-left: 3px;
+    font-weight: lighter;
+    font-size: 16px;
 }
 
 #forget{
