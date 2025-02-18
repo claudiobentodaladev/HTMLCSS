@@ -8,8 +8,9 @@
 
 :root{
     --box: black;
-    --bf: #69729c94;
+    --bf: #69729c9d;
     --letter: #000052;
+    --back:#80808073;
 }
 
 html,body{
@@ -18,13 +19,33 @@ html,body{
     background-position: center center;
     width: 100vw;
 }
+select#ilang{
+    display: block;
+    position: absolute;
+    top: -12%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 10px;
+    color: var(--letter);
+    background-color: var(--back);
+    border-radius: 15px;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 17px;
+}
+option{
+    font-size: 13px;
+    font-weight: bold;
+    margin: auto;
+}
+
 main{
     width: 100vw;
     height: 100vh;
 }
 
 h1,p{
-    text-shadow: 2px 1px 1px rgba(0, 0, 0, 0.562);
+    text-shadow: 2px 2px 1px #00000049;
     color: var(--letter);
     margin: 10px; 
     text-transform: capitalize;
@@ -32,23 +53,25 @@ h1,p{
 }
 p{
     font-weight: bold;
+    font-size: 19px;
 }
 i{
     position: absolute;
     top: -2%;
     left: 1.7%;
     color: var(--letter);
+    margin: 0px;
 }
 section#login{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    width: 300pxpx;
+    width: 75vw;
     height: 350px;
     padding: 20px;
     border-radius: 30px;
-    background-color: #80808073;
+    background-color: var(--back);
     transition: width .3s, height .3s;
     transition-timing-function: ease;
 }
@@ -79,27 +102,25 @@ div#ipass,div#iemael,#forget{
 input#enviar{
     display: block;
     margin: auto;
+    padding: 10px;
+    width: 255px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: var(--bf);
 }
 
+#enviar,#forget{
+    border-radius: 10px;
+    border: transparent;
+    color: var(--letter);
+}
 div#ipass,div#iemael,a#forget{
     display: block;
     margin: auto;
     margin-bottom: 10px;
     width: 255px;
     height: 40px;
-}
-#enviar{
-    padding: 10px;
-    width: 255px;
-    height: 50px;
-    font-size: 20px;
-    font-weight:500;
-    background-color: var(--bf);
-}
-#enviar,#forget{
-    border-radius: 10px;
-    border: transparent;
-    color: var(--letter);
 }
 
 input.box{

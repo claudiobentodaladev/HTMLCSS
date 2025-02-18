@@ -3,17 +3,27 @@
 :root{
     --bf: #69729c94;
 }
-@media screen and (min-width: 768px) and  (max-width: 1024px) {
+@media screen and (min-width: 768px) and  (max-width: 1024px){
+    h1{
+        font-size: 2em;
+    }
+    p{
+        font-size: 22px;
+        font-weight: bold;
+    }
+    select#ilang,option{
+        font-size: 30px;
+    }
     section#login{
         width: 80vw;
         padding: 0px;
-        overflow: hidden;
     }
-    section#login > div#other{
+    section#login > div#head{
         float: right;
         width: 30%;
         height: 100%;
         background-color: black;
+        border-radius: 0px 30px 30px 0px;
     }
     section#login > div#form{
         padding: 10px;
@@ -28,19 +38,26 @@
         transform: translate(-50%,-50%);
     }
     
-    h1{
-        font-size: 2em;
+    input#enviar{
+        font-size: 25px;
     }
-    p{
-        font-size: 22px;
-        font-weight: bold;
+    #forget{
+        font-size: 20px;
     }
 }
 @media screen and (min-width: 1025px) {
+    h1,p{
+        font-size: 2.2em;
+    }
+    select#ilang,option{
+        font-size: 21px;
+        font-weight: bold;
+    }
+
     section#login{
         width: 950px;
     }
-    section#login > div#other{
+    section#login > div#head{
         float: right;
         width: 50%;
         height: 100%;
@@ -58,7 +75,10 @@
         left: 25%;
         transform: translate(-50%,-50%);
     }
-    h1,p{
-        font-size: 2.2em;
+    input#enviar{
+        font-size: 25px;
+    }
+    #forget{
+        font-size: 20px;
     }
 }
