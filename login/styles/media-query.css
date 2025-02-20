@@ -78,7 +78,7 @@
     input#enviar{
         font-size: 25px;
     }
-    #forget{
+    a#forget{
         font-size: 20px;
-    }
+    }   
 }

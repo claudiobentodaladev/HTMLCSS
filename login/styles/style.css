@@ -80,6 +80,19 @@ section#login{
 form{
     margin-bottom: 20px;
 }
+input.box{
+    position: absolute;
+    top: -28%;
+    left: 19%;
+    width: 193px;
+    padding: 20px 5px 20px 5px;
+    background-color: var(--bf);
+    color: white;
+    text-align: justify;
+    font-weight: lighter;
+    font-size: 20px;
+    font-family: monospace;
+}
 #emael,#pass,#iemael,#ipass{
     padding-top: 20px;
 }
@@ -123,17 +136,6 @@ div#ipass,div#iemael,a#forget{
     height: 40px;
 }
 
-input.box{
-    position: absolute;
-    top: -28%;
-    left: 19%;
-    width: 193px;
-    padding: 20px 5px 20px 5px;
-    background-color: var(--bf);
-    color: white;
-    font-weight: lighter;
-    font-size: 16px;
-}
 
 #forget{
     padding-top: 12px;
