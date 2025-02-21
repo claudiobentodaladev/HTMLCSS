@@ -7,10 +7,11 @@
 }
 
 :root{
-    --box: black;
+    --box: #000010;
     --bf: #69729c9d;
-    --letter: #000052;
     --back:#80808073;
+    --letter-no: #000010;
+    --letter-yes: #080888;
 }
 
 html,body{
@@ -19,6 +20,9 @@ html,body{
     background-position: center center;
     width: 100vw;
 }
+form{
+    margin-bottom: 20px;
+}
 select#ilang{
     display: block;
     position: absolute;
@@ -26,7 +30,7 @@ select#ilang{
     left: 50%;
     transform: translate(-50%,-50%);
     padding: 10px;
-    color: var(--letter);
+    color: var(--letter-no);
     background-color: var(--back);
     border-radius: 15px;
     font-weight: bolder;
@@ -46,7 +50,7 @@ main{
 
 h1,p{
     text-shadow: 2px 2px 1px #00000049;
-    color: var(--letter);
+    color: var(--letter-no);
     margin: 10px; 
     text-transform: capitalize;
     text-align: center;
@@ -55,12 +59,10 @@ p{
     font-weight: bold;
     font-size: 19px;
 }
+
 i{
-    position: absolute;
-    top: -2%;
-    left: 1.7%;
-    color: var(--letter);
-    margin: 0px;
+    float: left;
+    color: var(--letter-yes);
 }
 section#login{
     position: absolute;
@@ -77,24 +79,20 @@ section#login{
 }
 
 
-form{
-    margin-bottom: 20px;
-}
 input.box{
-    position: absolute;
-    top: -28%;
-    left: 19%;
-    width: 193px;
-    padding: 20px 5px 20px 5px;
+    float: right;
     background-color: var(--bf);
     color: white;
     text-align: justify;
     font-weight: lighter;
-    font-size: 20px;
+    font-size: 13px;
     font-family: monospace;
+    width: 190px;
+    padding: 20px 1.5px 20px 1.5px;
 }
-#emael,#pass,#iemael,#ipass{
-    padding-top: 20px;
+div#ipass,div#iemael{
+    background-color: var(--box);
+    padding: 10px 7px 10px 0px; 
 }
 
 #iemael,#ipass{
@@ -103,15 +101,6 @@ input.box{
     border-radius: 10px;
     border: transparent;
 }
-
-div#ipass,div#iemael,#forget{
-    display: block;
-    background-color: var(--box);
-    width: 285px;
-    height: 20px;
-    color: white;
-}
-
 input#enviar{
     display: block;
     margin: auto;
@@ -121,12 +110,12 @@ input#enviar{
     font-size: 20px;
     font-weight: bold;
     background-color: var(--bf);
+    color: var(--letter-no);
 }
 
 #enviar,#forget{
     border-radius: 10px;
     border: transparent;
-    color: var(--letter);
 }
 div#ipass,div#iemael,a#forget{
     display: block;
@@ -143,8 +132,10 @@ div#ipass,div#iemael,a#forget{
     margin: auto;
     text-align: center;
     background-color: var(--box);
+    color: var(--letter-yes);
     text-decoration: none;
     font-weight: bolder;
     background-position: bottom center;
+    text-transform: capitalize;
 }
 
