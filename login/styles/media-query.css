@@ -8,12 +8,7 @@
 }
 
 @media screen and (min-width: 768px) and  (max-width: 1024px){
-    :root{
-        --box: #000010;
-        --back0: #80808086;
-        --letter-no: #0c0c0c;
-        --letter-yes: #40b2d8;
-    }
+    
     h1,p{
         color: var(--letter-yes);
     }
@@ -36,7 +31,7 @@
         float: right;
         width: 30%;
         height: 100%;
-        background-color: black;
+        background-color: var(--box);
         border-radius: 0px 30px 30px 0px;
     }
     section#login > div#form{
@@ -60,13 +55,6 @@
     }
 }
 @media screen and (min-width: 1025px) {
-    :root{
-        --box: #000010;
-        --back0: #80808086;
-        --letter-no: #0c0c0c;
-        --letter-yes: #227d9b;
-    }
-    
     h1,p{
         font-size: 2em;
         color: var(--letter-yes);
@@ -81,16 +69,22 @@
         font-size: 15px;
         font-weight: bold;
     }
+    select#ilang:hover{
+        border: none;
+    }
 
     section#login{
         width: 950px;
     }
     section#login > div#head{
+        position: absolute;
+        top: 0%;
+        left: 50%;
         float: right;
         width: 50%;
         height: 100%;
-        background-color: black;
-        padding-right: 0%;
+        background-color: var(--box);
+        border-radius: 0px 30px 30px 0px;
     }
     section#login > div#form{
         padding: 10px;
@@ -101,6 +95,10 @@
         left: 25%;
         transform: translate(-50%,-50%);
     }
+    input.box:hover{
+        transform: translate(1.7%,1.7%);
+        transition-duration: .2s;
+    }
     input#enviar{
         font-size: 25px;
     }
@@ -110,5 +108,9 @@
     }
     a#forget{
         font-size: 15px;
-    }   
+    }      
+    input#enviar:hover,a#forget:hover{
+        transform: translate(3%,3%);
+        transition-duration: .3s;
+    }
 }

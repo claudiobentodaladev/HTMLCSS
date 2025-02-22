@@ -8,9 +8,9 @@
 
 :root{
     --box: #000010;
-    --back0: #80808094;
+    --back0: #80808086;
     --letter-no: #0c0c0c;
-    --letter-yes: #3187a3;
+    --letter-yes: #40b2d8;
 }
 
 html,body{
@@ -100,10 +100,9 @@ div#ipass,div#iemael{
 }
 
 #iemael,#ipass{
-    position: relative;
     height: 0px;
     border-radius: 10px;
-    border: transparent;
+    border: none;
 }
 input#enviar{
     display: block;
@@ -120,7 +119,7 @@ input#enviar{
 
 #enviar,#forget{
     border-radius: 10px;
-    border: transparent;
+    border: none;
 }
 div#ipass,div#iemael,a#forget{
     display: block;
@@ -134,13 +133,10 @@ div#ipass,div#iemael,a#forget{
 #forget{
     padding-top: 13px;
     display: block;
-    margin: auto;
     text-align: center;
     background-color: var(--box);
     color: var(--letter-yes);
     text-decoration: none;
     font-weight: bolder;
-    background-position: bottom center;
     text-transform: capitalize;
 }
-
