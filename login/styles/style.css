@@ -8,13 +8,13 @@
 
 :root{
     --box: #000010;
-    --bf: #69729c9d;
-    --back:#80808073;
-    --letter-no: #000010;
+    --back0: #80808054;
+    --letter-no: #0c0c0c;
     --letter-yes: #080888;
 }
 
 html,body{
+    background-color: li;
     background-image: url(../image/background-world.jpg);
     background-size: cover;
     background-position: center center;
@@ -29,13 +29,14 @@ select#ilang{
     top: -12%;
     left: 50%;
     transform: translate(-50%,-50%);
-    padding: 10px;
     color: var(--letter-no);
-    background-color: var(--back);
+    background-color: var(--back0);
+    padding: 10px;
     border-radius: 15px;
     font-weight: bolder;
     text-align: center;
     font-size: 17px;
+    color: var(--letter-no);
 }
 option{
     font-size: 13px;
@@ -43,10 +44,6 @@ option{
     margin: auto;
 }
 
-main{
-    width: 100vw;
-    height: 100vh;
-}
 
 h1,p{
     text-shadow: 2px 2px 1px #00000049;
@@ -61,8 +58,13 @@ p{
 }
 
 i{
+    display: block;
     float: left;
     color: var(--letter-yes);
+}
+main{
+    width: 100vw;
+    height: 100vh;
 }
 section#login{
     position: absolute;
@@ -73,7 +75,7 @@ section#login{
     height: 350px;
     padding: 20px;
     border-radius: 30px;
-    background-color: var(--back);
+    background-color: var(--back0);
     transition: width .3s, height .3s;
     transition-timing-function: ease;
 }
@@ -81,13 +83,14 @@ section#login{
 
 input.box{
     float: right;
-    background-color: var(--bf);
     color: white;
+    background-color: var(--back1);
     text-align: justify;
     font-weight: lighter;
     font-size: 13px;
     font-family: monospace;
     width: 190px;
+    outline: 2px solid var(--letter-yes);
     padding: 20px 1.5px 20px 1.5px;
 }
 div#ipass,div#iemael{
@@ -107,10 +110,10 @@ input#enviar{
     padding: 10px;
     width: 255px;
     height: 50px;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: bold;
-    background-color: var(--bf);
     color: var(--letter-no);
+    background-color: var(--letter-yes);
 }
 
 #enviar,#forget{
@@ -127,7 +130,7 @@ div#ipass,div#iemael,a#forget{
 
 
 #forget{
-    padding-top: 12px;
+    padding-top: 13px;
     display: block;
     margin: auto;
     text-align: center;
