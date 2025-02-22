@@ -58,10 +58,6 @@ header > p{
     margin-bottom: 10px
     text-shadow: 3px 2px 1px rgb(0, 0, 0, 0.644);
 }
-menu{
-    background-color: var(--cor3);
-    display: none;
-}
 i#imenu{
     display: block;
     text-align: center;
@@ -71,22 +67,20 @@ i#imenu{
     cursor: pointer;
     border: 2px solid #01220f;
 }
+menu{
+    background-color: var(--cor3);
+    display: none;
+    flex-flow: column;
+}
 menu a{
     display: block;
     text-align: center;
-    display: block;
     background-color: var(--cor4);
     padding: 8px;
     border: 1px solid rgba(0, 0, 0, 0.493);
     text-decoration: none;
     color: var(--cor0);
 }
-menu a:hover{
-    text-decoration: none;
-    color: var(--cor4);
-    background-color: var(--cor0);
-}
-
 
 main{
     background-color: var(--cor0);
@@ -152,8 +146,7 @@ div.video{
 }
 div:hover{
     background-image: linear-gradient(to bottom, var(--cor2), var(--cor1), var(--cor0));
-    transition-duration: 80s;
-
+    transition-duration: .3s;
 }
 div.video > iframe{
     position: absolute;

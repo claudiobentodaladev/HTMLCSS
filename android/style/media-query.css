@@ -13,7 +13,14 @@
         font-size: 1.2em;
         max-width: 600px;
     }
-
+    
+    menu a:hover{
+        text-decoration: none;
+        color: var(--cor4);
+        background-color: var(--cor0);
+        transform: translate(3%,3%);
+        transition-duration: .2s;
+    }
     i#imenu{
         display: none;
     }
@@ -45,4 +52,9 @@
     main > img#bigirina{
         display: block;
     }
+    footer > p{
+        font-size: 17px;
+        padding: 5px;
+    }
+    
 }
