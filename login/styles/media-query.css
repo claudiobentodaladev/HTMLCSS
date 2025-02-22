@@ -67,6 +67,8 @@
     }
 }
 @media screen and (min-width: 1024px) {
+    
+
     h1,p{
         font-size: 2em;
         color: var(--letter-yes);

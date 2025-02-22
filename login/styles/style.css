@@ -39,10 +39,12 @@ select#ilang{
     color: var(--letter-no);
 }
 option{
+    margin: auto;
     font-size: 13px;
     font-weight: bold;
-    margin: auto;
+    background-color: var(--letter-yes);
 }
+
 
 
 h1,p{
