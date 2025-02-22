@@ -2,7 +2,7 @@
 
 :root{
     --box: #000010;
-    --back0: #80808086;
+    --back0: #80808000;
     --letter-no: #0c0c0c;
     --letter-yes: #40b2d8;
 }
@@ -46,6 +46,18 @@
         left: 33.5%;
         transform: translate(-50%,-50%);
     }
+    div#form{
+        position: absolute;
+        top: 50%;
+        left: 33.5%;
+        transform: translate(-50%,-50%);
+    }
+    div#form{
+        position: absolute;
+        top: 50%;
+        left: 33.5%;
+        transform: translate(-50%,-50%);
+    }
     
     input#enviar{
         font-size: 20px;
@@ -54,7 +66,7 @@
         font-size: 17px;
     }
 }
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1024px) {
     h1,p{
         font-size: 2em;
         color: var(--letter-yes);
@@ -72,28 +84,30 @@
     select#ilang:hover{
         border: none;
     }
-
+    
     section#login{
         width: 950px;
     }
-    section#login > div#head{
+    div#head{
+        float: right;
         position: absolute;
         top: 0%;
-        left: 50%;
-        float: right;
-        width: 50%;
+        left: 65%;
+        width: 35%;
         height: 100%;
         background-color: var(--box);
         border-radius: 0px 30px 30px 0px;
     }
-    section#login > div#form{
-        padding: 10px;
-    }
+
     div#form{
         position: absolute;
         top: 50%;
         left: 25%;
         transform: translate(-50%,-50%);
+        width: 80%;
+    }
+    section#login > div#form{
+        padding: 10px;
     }
     input.box:hover{
         transform: translate(1.7%,1.7%);
