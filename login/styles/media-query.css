@@ -1,6 +1,19 @@
 @charset "UTF-8";
 
+:root{
+    --box: #000010;
+    --back0: #80808086;
+    --letter-no: #0c0c0c;
+    --letter-yes: #40b2d8;
+}
+
 @media screen and (min-width: 768px) and  (max-width: 1024px){
+    :root{
+        --box: #000010;
+        --back0: #80808086;
+        --letter-no: #0c0c0c;
+        --letter-yes: #40b2d8;
+    }
     h1,p{
         color: var(--letter-yes);
     }
@@ -11,6 +24,7 @@
         font-size: 22px;
         font-weight: bold;
     }
+    
     select#ilang,option{
         font-size: 20px;
     }
@@ -30,7 +44,7 @@
         float: left;
         width: 65%;
     }
-
+    
     div#form{
         position: absolute;
         top: 50%;
@@ -46,9 +60,22 @@
     }
 }
 @media screen and (min-width: 1025px) {
+    :root{
+        --box: #000010;
+        --back0: #80808086;
+        --letter-no: #0c0c0c;
+        --letter-yes: #227d9b;
+    }
+    
     h1,p{
         font-size: 2em;
         color: var(--letter-yes);
+    }
+    main{
+        background-image: url(../image/background-cat.jpg);
+        background-size: contain;
+        background-position: center center;
+        background-repeat: no-repeat;
     }
     select#ilang{
         font-size: 15px;

@@ -8,14 +8,13 @@
 
 :root{
     --box: #000010;
-    --back0: #80808054;
+    --back0: #80808094;
     --letter-no: #0c0c0c;
-    --letter-yes: #080888;
+    --letter-yes: #3187a3;
 }
 
 html,body{
-    background-color: li;
-    background-image: url(../image/background-world.jpg);
+    background-image: url(../image/background-cat.jpg);
     background-size: cover;
     background-position: center center;
     width: 100vw;
@@ -32,6 +31,7 @@ select#ilang{
     color: var(--letter-no);
     background-color: var(--back0);
     padding: 10px;
+    box-shadow: 1px 1px 20px var(--box);
     border-radius: 15px;
     font-weight: bolder;
     text-align: center;
@@ -76,6 +76,7 @@ section#login{
     padding: 20px;
     border-radius: 30px;
     background-color: var(--back0);
+    box-shadow: 1px 1px 20px var(--box);
     transition: width .3s, height .3s;
     transition-timing-function: ease;
 }
@@ -113,6 +114,7 @@ input#enviar{
     font-size: 16px;
     font-weight: bold;
     color: var(--letter-no);
+    box-shadow: 1px 1px 8px var(--box);
     background-color: var(--letter-yes);
 }
 
