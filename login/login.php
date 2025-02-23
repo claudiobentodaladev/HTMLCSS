@@ -1,1 +1,0 @@
-esta é uma simulação de php
