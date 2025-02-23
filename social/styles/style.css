@@ -11,20 +11,19 @@ html, body{
     min-width: 420px;
     min-height: 420px;
     background-color: black;
-}
-body{
-    background: url('../img/fundo-madeira.jpg') repeat center center;
+    background: url('../img/fundo-madeira.jpg')  center center;
     background-size: cover;
     background-attachment: fixed;
+    background-repeat: repeat-y;
 }
+
 main{
     position: relative;
-    height: 100vh;
 }
-#phone{
+section#phone{
     position: absolute;
-    top: 50%;
-    left: 53%;
+    top: 148%;
+    left: 51%;
     background: unset;
     transform: translate(-50%,-50%);
     height: 628px;
