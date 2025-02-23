@@ -13,7 +13,6 @@ html, body{
     background-color: black;
     background: url('../img/fundo-madeira.jpg')  center center;
     background-size: cover;
-    background-attachment: fixed;
     background-repeat: repeat-y;
 }
 
@@ -22,12 +21,13 @@ main{
 }
 section#phone{
     position: absolute;
-    top: 148%;
-    left: 51%;
+    top: 168%;
+    left: 60%;
     background: unset;
     transform: translate(-50%,-50%);
     height: 628px;
     width: 422px;
+    transition: top .3s, left .3s;
     background: url('../img/frame-iphone.png') no-repeat;
 }
 #tela{
@@ -43,7 +43,7 @@ section#phone{
 }
 #social-midia img{
     width: 50px;
-    margin: 5px;
+    margin: 5px -35px 5px 0px;
     border-radius: 50%;
     box-shadow: 2px 2px 5px #0000008c;
     box-sizing: border-box;

@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) and  (max-width: 1024px) {
+    section#phone{
+        top: 170%;
+        left: 56.5%;
+        transition: top .3s, left .3s;
+    }
+
+    #social-midia img{
+        width: 50px;
+        margin: 5px;
+    }
+    #social-midia img{
+        width: 50px;
+        margin: 5px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    section#phone{
+        top: 105%;
+        left: 54%;
+        transition: top .3s, left .3s;
+    }
+    #social-midia img{
+        width: 50px;
+        margin: 5px;
+    }
+}
