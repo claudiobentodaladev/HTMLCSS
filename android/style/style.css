@@ -27,10 +27,13 @@
     width: 0px;
     height: 0px;
 }
+html{
+    background-color: var(--cor4);
+}
 body{
     background-color: var(--cor0);
     font-family: var(--font-padrao);
-
+    
 }
 a.externo::after{
     content: '\1F517';
@@ -83,7 +86,6 @@ menu a{
 }
 
 main{
-    background-color: var(--cor0);
     min-width: 300px;
     max-width: 1000px;
     margin: auto;
