@@ -11,7 +11,7 @@
 }
 
 :root{
-    --cor0: #ace4c5;
+    --cor0: #c0ecd3;
     --cor1: #83e1ad;
     --cor2: #3ddc84;
     --cor3: #2fa866;
@@ -95,14 +95,17 @@ main{
 main > h1{
     color: var(--cor4);
     font-family: var(--font-android);
+    font-size: 1em;
 }
 main h2{
+    font-size: 1.3em;
     font-family: var(--font-android);
     color: var(--cor5);
     background-image: linear-gradient(to right, var(--cor3), var(--cor0));
     padding: 5px;
 }
 main  p{
+    line-height: 2em;
     padding: 15px 0px;
     text-align: justify;
     text-indent: 30px;
@@ -181,6 +184,6 @@ footer {
     text-align: center;
 }
 footer > p{
-    font-size: 13px;
+    font-size: 14px;
     padding: 5px;
 }

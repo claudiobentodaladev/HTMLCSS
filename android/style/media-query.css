@@ -52,6 +52,12 @@
     main > img#bigirina{
         display: block;
     }
+    main > h1{
+        font-size: 2em;
+    }
+    main h2{
+        font-size: 2em;
+    }
     footer > p{
         font-size: 17px;
         padding: 5px;
