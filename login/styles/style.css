@@ -64,6 +64,9 @@ span{
     float: left;
     color: var(--letter-yes);
 }
+#emael,#pass{
+    margin: 8px 0px 0px 20px;
+}
 main{
     width: 100vw;
     height: 100vh;
