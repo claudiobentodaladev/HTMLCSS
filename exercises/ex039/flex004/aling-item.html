@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexible box 4.2</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<style>
+    body{
+        padding: 0% 15%;
+    }
+
+    div.container{
+        display: flex;
+        height: 150px;
+        margin-bottom: 20px;
+        background-color: purple;
+    }
+    div.item{
+        text-align: center;
+        background-color: yellow;
+        border: 1px solid black;
+    }
+    h1{
+        text-align: left;
+    }
+    #stretch{
+        align-items: stretch;
+    }
+    #start{
+        align-items: flex-start;
+    }
+    #end{
+        align-items: flex-end;
+    }
+    #center{
+        align-items: center;
+    }
+</style>
+<body>
+    <h1>ALIGN ITEM</h1>
+
+    <h2>STRETCH</h2>
+    <div id="stretch" class="container">
+        <div class="item">A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+    </div>
+
+    <h2>FLEX-START</h2>
+
+    <div id="start" class="container">
+        <div class="item">A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+    </div>
+
+    <h2>FLEX-END</h2>
+
+    <div id="end" class="container">
+        <div class="item">A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+    </div>
+
+    <h2>CENTER</h2>
+
+    <div id="center" class="container">
+        <div class="item">A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+    </div>
+</body>
+</html>

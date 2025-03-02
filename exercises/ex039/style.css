@@ -8,6 +8,10 @@ body{
     background-color: gray;
 }
 
+h1,h2{
+    text-align: center;
+}
+
 div.item{
     padding: 10px;
     border: 1px solid black;
