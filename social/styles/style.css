@@ -17,30 +17,27 @@ html, body{
 }
 
 main{
-    position: relative;
+    display: flex;
 }
 section#phone{
     position: absolute;
-    top: 168%;
-    left: 60%;
+    top: 50%;
+    left: 50%;
     background: unset;
     transform: translate(-50%,-50%);
-    height: 628px;
-    width: 422px;
+    height: 627px;
+    width: 311px;
     transition: top .3s, left .3s;
     background: url('../img/frame-iphone.png') no-repeat;
 }
 #tela{
     position: relative;
-    top: 12px;
-    left: 14px;
-    width: 281px;
-    height: 600px;
+    top: 80px;
+    left: 23px;
+    width: 263px;
+    height: 468px;
 }
-#social-midia{
-    text-align: right;
 
-}
 #social-midia img{
     width: 50px;
     margin: 5px -35px 5px 0px;

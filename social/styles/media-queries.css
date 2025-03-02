@@ -2,8 +2,9 @@
 
 @media screen and (min-width: 768px) and  (max-width: 1024px) {
     section#phone{
-        top: 170%;
-        left: 56.5%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
         transition: top .3s, left .3s;
     }
 
@@ -19,8 +20,8 @@
 
 @media screen and (min-width: 1024px) {
     section#phone{
-        top: 105%;
-        left: 54%;
+        top: 50%;
+        left: 50%;
         transition: top .3s, left .3s;
     }
     #social-midia img{
