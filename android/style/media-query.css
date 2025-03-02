@@ -21,7 +21,7 @@
         transform: translate(3%,3%);
         transition-duration: .2s;
     }
-    i#imenu{
+    span#imenu{
         display: none;
     }
     menu{

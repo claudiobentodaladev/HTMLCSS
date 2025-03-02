@@ -59,7 +59,7 @@ p{
     font-size: 19px;
 }
 
-i{
+span{
     display: block;
     float: left;
     color: var(--letter-yes);

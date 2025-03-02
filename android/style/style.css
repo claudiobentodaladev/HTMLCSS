@@ -61,7 +61,7 @@ header > p{
     margin-bottom: 10px
     text-shadow: 3px 2px 1px rgb(0, 0, 0, 0.644);
 }
-i#imenu{
+span#imenu{
     display: block;
     text-align: center;
     background-color: #01220f;
