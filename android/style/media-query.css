@@ -26,15 +26,9 @@
     }
     menu{
         background-color: var(--cor5);
-        display: block;
+        display: flex;
     }
-    menu ul{
-        padding: 5px 0px;
-    }
-    menu li{
-        display: inline-block;
-        margin-left: 10px;
-    }
+
     menu a{
         border-radius: 5px;
         border: 0px;
