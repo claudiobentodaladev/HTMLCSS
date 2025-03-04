@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>imagens dinamicas</title>
+</head>
+<body>
+    <!--audio: é usado para audio
+        src: é o endereço da audio local ou remoto(url)
+        picture: e usado para agregar imagens
+        source: é usado para apresentar imagens, quando um tamanho especifico
+        img: nesse caso é usado para a imagem principal a mostrar-->
+    <h2>audios in html5</h2>
+    <audio src="audio/_1.mp3" controls></audio>
+    <h1>photo down</h1>
+    <picture>
+        <source media="(max-width: 750px )" srcset="img/_1.png" type="image/png">
+        <source media="(max-width: 1050px )" srcset="img/_2.png" type="image/png">
+        <img src="img/_3.png" alt="fexivel image">
+    </picture>
+</body>
+</html>
