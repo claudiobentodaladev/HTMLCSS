@@ -1,0 +1,26 @@
+body{
+    background-color: yellowgreen;
+}
+
+.other{
+    text-decoration: none;
+    font-size: 2em;
+    color: red;
+}
+
+a{
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:visited{
+    color: rgb(255, 115, 0);
+}
+a:hover{
+    color: black;
+}
+/*
+:hover é usado para definir um estado quando cursor ser passado no elemento
+:visited: é usado para definir um estado quando o link já foi visitado
+*/

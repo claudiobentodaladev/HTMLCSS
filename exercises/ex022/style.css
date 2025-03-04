@@ -1,0 +1,22 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(177, 223, 128);
+    font-weight: 200;
+}
+h1,h2,p{
+    color: rgb(60, 156, 60);
+}
+.principal{
+    background-color: green;
+    color: rgb(3, 49, 3); 
+}
+.basic{
+    color: rgb(60, 156, 60);
+}
+.intermedium{
+    color: rgb(156, 150, 60);
+}
+.Harding{
+    color: rgb(156, 60, 60);
+}
+/**/
