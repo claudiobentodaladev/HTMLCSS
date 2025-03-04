@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexible box 4</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<style>
+    html{
+        padding: 0% 10%;
+    }
+    div.container{
+        background-color: purple;
+        display: flex;
+        flex-flow: row wrap;
+    }
+    div.item{
+        text-align: center;
+        background-color: yellow;
+    }
+    h1{
+        text-align: left;
+    }
+
+    #start{
+        justify-content: flex-start;
+    }
+    #end{
+        justify-content: flex-end;
+    }
+    #center{
+        justify-content: center;
+    }
+    #between{
+        justify-content: space-between;
+    }
+    #around{
+        justify-content: space-around;
+    }
+    #evenly{
+        justify-content: space-evenly;
+    }
+</style>
+<body>
+    <h1>JUSTIFY CONTENT</h1>
+
+    <h2>FLEX START</h2>
+
+    <div id="start" class="container" >
+        <div class="item">A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+    </div>
+
+    <h2>FLEX END</h2>
+
+    <div id="end" class="container" >
+        <div class="item">A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+    </div>
+
+    <h2>CENTER</h2>
+
+    <div id="center" class="container" >
+        <div class="item">A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+    </div>
+
+    <h2>SPACE BETWEEN</h2>
+
+    <div id="between" class="container" >
+        <div class="item">A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+    </div>
+
+    <h2>SPACE AROUND</h2>
+    
+    <div id="around" class="container" >
+        <div class="item">A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+    </div>
+
+    <h2>SPACE EVENLY</h2>
+    
+    <div id="evenly" class="container" >
+        <div class="item">A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+    </div>
+</body>
+</html>

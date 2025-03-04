@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexible box 5</title>
+</head>
+<style>
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+
+    main{
+        display: flex;
+        flex-flow: row nowrap;
+        height: 100vh;
+        width: 100vw;
+        background-color: yellow;
+        justify-content: center;
+        align-items: center;
+    }
+    section{
+        height: 300px;
+        width: 300px;
+        background-color: purple;
+    }
+    section h1{
+        text-align: center;
+        text-transform: capitalize;
+    }
+</style>
+<body>
+    <main>
+        <section>
+            <h1>item in center</h1>
+        </section>
+    </main>
+</body>
+</html>

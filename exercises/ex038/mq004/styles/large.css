@@ -1,0 +1,11 @@
+@charset "UTF-8" ;
+    /*telas grandes*/
+body{
+    background-image: url(../img/back-tv.jpg);
+}
+
+img#phone{ display: none;}
+img#tablet{ display: none;}
+img#print{ display: none;}
+img#pc{ display: none;}
+img#tv{ display: block;}

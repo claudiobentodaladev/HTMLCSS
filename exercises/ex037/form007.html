@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulrio 7</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<style>
+    textarea{
+        min-height: 100px;
+        max-height: 100px;
+        min-width: 200px;
+        max-width: 200px;
+    }
+</style>
+<body>
+    <!---->
+    <h1>Exemplo de formulario 7</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <div>
+            <label for="ipaises">Paises</label>
+            <select name="paises" id="ipaises">
+                <optgroup label="Africa">
+                    <option value="ang" selected>Angola</option>
+                    <option value="cv">Cabo Verde</option>
+                    <option value="mz">Moçambique</option>
+                    <option value="stp">São Tomé e Principe</option>
+                </optgroup>
+                <optgroup label="Europa">
+                    <option value="pt">Portugal</option>
+                    <option value="fr">França</option>
+                    <option value="en">Inglaterra</option>
+                    <option value="esp">Espanha</option>
+                </optgroup>
+                <optgroup label="America">
+                    <option value="usa">EUA</option>
+                    <option value="can">Canada</option>
+                    <option value="br">Brasil</option>
+                    <option value="arg">Argentins</option>
+                </optgroup>
+                <optgroup label="Asia">
+                    <option value="chn">China</option>
+                    <option value="Jp">Japão</option>
+                    <option value="Cs">Corea do Sul</option>
+                    <option value="Trl">Timor leste</option>
+                </optgroup>
+            </select>
+        </div>
+        <div>
+            <label for="iling">Linguagens de Programação</label>
+            <input type="text" name="ling" id="iling" list="prog">
+            <datalist id="prog">
+                <option>PHP</option>
+                <option>C</option>
+                <option>PYTHON</option>
+                <option>JAVA</option>
+            </datalist>
+        </div>
+        <div>
+            <label for="imsg">Mensagem</label><br>
+            <textarea name="msg" id="imsg" cols="30" rows="10" placeholder="Sua mensagem aqui"></textarea>
+        </div>
+        <div>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </div>
+    </form>
+</body>
+</html>
