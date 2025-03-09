@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="../style.css">
 </head>
 <style>
+    body{
+        padding: 0% 10%;
+    }
     div.container{
         display: flex;
         flex-flow: row nowrap;
@@ -28,34 +31,26 @@
         align-self: auto;
     }
     div#i2{
-        align-self: auto;
+        align-self: flex-start;
     }
     div#i3{
         align-self: flex-end;
     }
     div#i4{
-        align-self: auto;
-    }
-    div#i5{
         align-self: center;
     }
-    div#i6{
-        align-self: flex-start;
-    }
-    div#i7{
+    div#i5{
         align-self: stretch;
     }
 </style>
 <body>
+    <h1>order</h1>
     <div class="container">
-        <div class="item" id="i1">A</div>
-        <div class="item" id="i2">B</div>
-        <div class="item" id="i3">C</div>
-        <div class="item" id="i4">D</div>
-        <div class="item" id="i5">E</div>
-        <div class="item" id="i6">F</div>
-        <div class="item" id="i7">G</div>
+        <div class="item" id="i1">AUTO</div>
+        <div class="item" id="i2">FLEX-START</div>
+        <div class="item" id="i3">FLEX-END</div>
+        <div class="item" id="i4">CENTER</div>
+        <div class="item" id="i5">STRETCH</div>
     </div>
-    <h1>Study about flexible box</h1>
 </body>
 </html>
