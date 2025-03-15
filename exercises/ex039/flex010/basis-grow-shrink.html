@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BASIS + GROW + SHRINK</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<style>
+    div.container{
+        display: flex;
+        background-color: purple;
+    }
+    div.item{
+        flex-basis: 150px;
+
+        text-align: center;
+        background-color: yellow;
+        border: 1px solid black;
+    }
+    #f1{
+        flex-grow: 0;
+        flex-shrink: 1;
+    }
+    #f2{
+        flex-grow: 2;
+        flex-shrink: 0;
+    }
+    #f3{
+        flex-grow: 1;
+        flex-shrink: 2;
+    }
+    h1{
+        text-align: center;
+        font-size: 20px;
+    }
+    h2{
+        text-align: left;
+        font-size: 16px;
+    }
+</style>
+<body>
+    <h1>flex-basis + flex-grow + flex-shrink</h1>
+
+    <div id="a" class="container">
+        <div id="f1" class="item">A</div>
+        <div id="f2" class="item">B</div>
+        <div id="f3" class="item">C</div>
+    </div>
+</body>
+</html>
