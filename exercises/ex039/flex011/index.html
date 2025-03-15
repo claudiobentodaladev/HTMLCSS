@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexible box 1</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<style>
+    div.container{
+        display: flex;
+        flex-flow: row nowrap;
+
+        background-color: purple;
+    }
+    div.item{
+        flex-basis: 200px;
+        
+        text-align: center;
+        background-color: yellow;
+        border: 1px solid black;
+        padding: 0px;
+    }
+    #f1{
+        flex-shrink: 0;
+        flex-grow: 1;
+    }
+    #f2{
+        flex-shrink: 1;
+        flex-grow: 1;
+    }
+    #f3{
+        flex-shrink: 7;
+        flex-grow: 1;
+    }
+    h1{
+        text-align: center;
+    }
+    h2{
+        text-align: left;
+        font-size: 15px;
+    }
+</style>
+<body>
+    <h1>ex.: flex-shrink & flex-grow</h1>
+
+    <div class="container">
+        <div class="item" id="f1">A</div>
+        <div class="item" id="f2">B</div>
+        <div class="item" id="f3">C</div>
+    </div>
+</body>
+</html>
