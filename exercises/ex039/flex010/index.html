@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexible box 1</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<style>
+    div.container{
+        display: flex;
+        flex-flow: row nowrap;
+
+        background-color: purple;
+    }
+    div.item{
+        flex-basis: 250px;
+        
+        text-align: center;
+        background-color: yellow;
+        border: 1px solid black;
+        padding: 0px;
+    }
+    #itemA{
+        flex-shrink: 1;
+        flex-grow: 0;
+    }
+    #itemB{
+        flex-shrink: 0;
+        flex-grow: 1;
+    }
+    #itemC{
+        flex-shrink: 1;
+        flex-grow: 1;
+    }
+    #grow0{
+        flex-grow: 0;
+    }
+    #grow1{
+        flex-grow: 1;
+    }
+    #grow2{
+        flex-grow: 2;
+    }
+    #shrink0{
+        flex-shrink: 0;
+    }
+    #shrink1{
+        flex-shrink: 1;
+    }
+    #shrink2{
+        flex-shrink: 2;
+    }
+    h1{
+        text-align: center;
+    }
+    h2{
+        text-align: left;
+        font-size: 15px;
+    }
+</style>
+<body>
+    <h1>flex-shrink & flex-grow</h1>
+    
+    <h2>flex-shrink : 1 & flex-grow : 0</h2>
+    <div class="container">
+        <div class="item" id="itemA">A</div>
+        <div class="item" id="itemA">B</div>
+        <div class="item" id="itemA">C</div>
+    </div>
+
+    <h2>flex-shrink : 0 & flex-grow : 1</h2>
+    
+    <div class="container">
+        <div class="item" id="itemB">A</div>
+        <div class="item" id="itemB">B</div>
+        <div class="item" id="itemB">C</div>
+    </div>
+
+    <h2>flex-shrink : 1 & flex-grow : 1</h2>
+    
+    <div class="container">
+        <div class="item" id="itemC">A</div>
+        <div class="item" id="itemC">B</div>
+        <div class="item" id="itemC">C</div>
+    </div>
+    
+    <h1>other situation using flex-grow & flex-shrink</h1>
+    
+    <h2>exemple1.: flex-grow</h2>
+    
+    <div class="container">
+        <div class="item" id="grow0">0</div>
+        <div class="item" id="grow1">1</div>
+        <div class="item" id="grow0">0</div>
+    </div>
+
+    <h2>exemple2.: flex-grow</h2>
+    
+    <div class="container">
+        <div class="item" id="grow0">0</div>
+        <div class="item" id="grow1">1</div>
+        <div class="item" id="grow2">2</div>
+    </div>
+
+    <h2>exemple3.: flex-grow</h2>
+    
+    <div class="container">
+        <div class="item" id="grow0">0</div>
+        <div class="item" id="grow2">2</div>
+        <div class="item" id="grow2">2</div>
+    </div>
+
+    <h2>exemple4.: flex-shrink</h2>
+    
+    <div class="container">
+        <div class="item" id="shrink0">0</div>
+        <div class="item" id="shrink1">1</div>
+        <div class="item" id="shrink0">0</div>
+    </div>
+
+    <h2>exemple5.: flex-shrink</h2>
+    
+    <div class="container">
+        <div class="item" id="shrink2">2</div>
+        <div class="item" id="shrink0">0</div>
+        <div class="item" id="shrink1">1</div>
+    </div>
+
+</body>
+</html>
