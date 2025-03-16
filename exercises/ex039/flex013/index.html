@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>flexible box 11</title>
+    <title>flexible box 13</title>
     <link rel="stylesheet" href="../style.css">
 </head>
 <style>
@@ -14,24 +14,37 @@
         background-color: purple;
     }
     div.item{
-        flex-basis: 200px;
-        
         text-align: center;
         background-color: yellow;
         border: 1px solid black;
         padding: 0px;
     }
     #f1{
-        flex-shrink: 0;
+        /*
         flex-grow: 1;
+        flex-shrink: 0;
+        flex-basis: 200px;
+        */
+        flex: 1 0 200px;
+        
     }
     #f2{
-        flex-shrink: 1;
+        /*
         flex-grow: 1;
+        flex-shrink: 1;
+        flex-basis: 200px;
+        */
+        
+        flex: 1 1 200px;
     }
     #f3{
-        flex-shrink: 7;
+        /*
         flex-grow: 1;
+        flex-shrink: 8;
+        flex-basis: 200px;
+        */
+        flex: 1 8 200px;
+
     }
     h1{
         text-align: center;
@@ -42,7 +55,7 @@
     }
 </style>
 <body>
-    <h1>ex.: flex-shrink & flex-grow</h1>
+    <h1>flex = flex-grow flex-shrink  + flex-basis</h1>
 
     <div class="container">
         <div class="item" id="f1">A</div>
