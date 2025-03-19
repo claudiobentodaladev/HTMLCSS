@@ -48,7 +48,7 @@ section{
 }
 section >p{
     margin: 0px 0px 0px 30px;
-    line-height: 40px;
+    line-height: 45px;
 }
 section.normal{
     background-color: var(--colornoimg);
@@ -80,4 +80,7 @@ footer{
     text-align: center;
     color: white;
     padding: 10px;
+}
+footer > p{
+    font-size: 13px;
 }
