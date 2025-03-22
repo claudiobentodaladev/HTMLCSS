@@ -25,6 +25,20 @@ header > h1{
 header > nav{
     border: 1px dotted black;
 }
+header > nav  a{
+    padding: 10px;
+    margin: 5px;
+    border-radius: 8px;
+    color: white;
+    background-color: #303030;
+    text-decoration: none;
+    text-align: center;
+}
+header > nav  a:hover{
+    background-color: white;
+    color: #303030;
+    transition: background-color .7s;
+}
 
 main{
     width: 85vw;
