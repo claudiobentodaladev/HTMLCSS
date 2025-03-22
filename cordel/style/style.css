@@ -81,6 +81,9 @@ footer{
     color: white;
     padding: 10px;
 }
-footer > p{
-    font-size: 13px;
+
+@media  screen and (max-width: 768px) {
+    footer > p{
+        font-size: 12px;
+    }
 }
