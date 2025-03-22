@@ -25,16 +25,22 @@ header{
     padding: 10px;
 }
 header > h1{
-    border: 1px dotted black;
     flex: 0 0 200px;
+
+    text-shadow: 2px 2px 3px #00000080;
+    /*border: 1px dotted black;*/
 }
 header > nav{
     display: flex;
     flex-flow: row wrap ;
     justify-content: flex-end;
-    padding: 10.1px;
 
-    border: 1px dotted black;
+   /* border: 1px dotted black;*/
+}
+
+/*Em menus com flex box a lista de links deve ser « display: inline-flex » */
+header > nav  li{
+    display: inline-flex;
 }
 header > nav  a{
     padding: 10px;
@@ -53,6 +59,7 @@ header > nav  a:hover{
 
 main{
     width: 85vw;
+    max-width: 900px;
     padding: 10px;
     margin: auto;
     border-radius: 10px;
