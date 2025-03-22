@@ -15,14 +15,25 @@ body{
 }
 
 header{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+
+    color: white;
     background-color: gray;
     padding: 10px;
-    margin-bottom: 10px;
 }
 header > h1{
     border: 1px dotted black;
+    flex: 0 0 200px;
 }
 header > nav{
+    display: flex;
+    flex-flow: row wrap ;
+    justify-content: flex-end;
+    padding: 10.1px;
+
     border: 1px dotted black;
 }
 header > nav  a{
@@ -44,7 +55,7 @@ main{
     width: 85vw;
     padding: 10px;
     margin: auto;
-    border-radius: 8px;
+    border-radius: 10px;
     box-shadow: 2px 2px 3px #00000079;
     background-color: white;
 }
