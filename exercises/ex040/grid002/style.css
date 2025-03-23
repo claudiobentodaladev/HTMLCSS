@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Fr: é o tamanho de forma propocional. */
+.container{
+    display: grid;
+    gap: 10px;
+    grid-auto-rows: 80px 501px 40px;
+
+    grid-template-areas: 
+    'header header header'
+    'aside section section'
+    'footer footer footer'
+    ;
+}
+header, aside, section, footer{
+    font-weight: bolder;
+    font-size: 2em;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    grid-area: header;
+    background-color: brown;
+}
+aside{
+    grid-area: aside;
+    background-color: blue;
+}
+section{
+    grid-area: section;
+    background-color: aqua;
+}
+footer{
+    grid-area: footer;
+    background-color: blueviolet;
+}
