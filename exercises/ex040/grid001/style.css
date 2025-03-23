@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Fr: é o tamanho de forma propocional. */
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 200px) ;
+    grid-template-rows: 200px 200px;
+    gap: 30px;
+
+    place-items: center center;
+
+    justify-content: center;
+    align-content: center;
+
+    height: 46.9vw;
+    background-color: purple;
+}
+
+.item{
+    background-color: yellow;
+}
