@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    display: grid;
+    gap: 10px;
+    grid-auto-rows: 70px 250px 250px 40px;
+}
+header, aside, section, footer{
+    font-weight: bolder;
+    font-size: 2em;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    grid-column: span  3;
+    background-color: brown;
+}
+aside{
+    grid-column: span 1;
+    grid-row: span 2;
+    background-color: blue;
+}
+section{
+    grid-column: span 2;
+    background-color: aqua;
+}
+footer{
+    grid-column: span 3;
+    background-color: blueviolet;
+}
