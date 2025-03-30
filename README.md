@@ -1,6 +1,6 @@
 # study-html-css
 
-<h1>These are my projects</h1>
+<h1>ALL PROJECT</h1>
 <ul>
     <li><a href="https://claudiobentodala.github.io/HTMLCSS/android/">ANDROID HISTORY<a>
     <li><a href="https://claudiobentodala.github.io/HTMLCSS/cordel">CORDEL<a>
