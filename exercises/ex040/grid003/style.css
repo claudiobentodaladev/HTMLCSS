@@ -7,7 +7,7 @@
 
 .container{
     display: grid;
-    gap: 10px;
+    gap: 20px;
     grid-auto-rows: 70px 250px 250px 40px;
 }
 header, aside, section, footer{
