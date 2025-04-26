@@ -1,0 +1,14 @@
+/* CURSOR PINTER: para ficar com dedo apontador
+ quando passamos cursor no elemento */
+div#pointer{
+    cursor: pointer;
+    animation: dor  800ms infinite ;
+}
+@keyframes dor {
+    0%, 100%{
+        scale: 100%;
+    }
+    50%{
+        scale: 110%;
+    }
+}
