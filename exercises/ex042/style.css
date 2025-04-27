@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: monospace;
+    background-color: rgb(51 51 51);
+    padding: 5px 0px;
+}
+main{
+    margin: auto;
+    width: 60vw;
+    height: 1000px;
+    background-color: white;
+    padding: 0px 60px;
+}
+main > img{
+    width: 100px;
+}
+main > #header{
+    font-size: 16px;
+    text-align: right;
+}
+main > #header > p{
+    font-weight: bold;
+}
+main > #header > p > span{
+    font-weight: lighter;
+}
+main > #data{
+    margin: 10px 0px;
+    font-weight: bolder;
+    text-align: center;
+}
+main > #data > span{
+    font-weight: lighter;
+}
+main > hr{
+    margin: 5px 0px;
+    border: 1px solid black;
+}
+main > #descricao{
+    margin: 10px 0px;
+}
+main > #descricao > h2{
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+main > #descricao > p{
+    margin: 10px 0px;
+    text-indent: 50px;
+}
+main > #assinatura{
+    text-align: center;
+    margin-top: 380px;
+}
+main > #assinatura > p{
+    text-transform: capitalize;
+    font-size: 16px;
+}
+main > #assinatura > hr{
+    margin: auto;
+    width: 250px;
+    margin-top: 40px;
+    border: 1px solid black;
+}
+main #rodape{
+    text-align: right;
+}
+main #rodape > img{
+    width: 170px;
+    height: 150px;
+}
+@media print{
+    main{
+        width: 90vw;
+        padding: 0;
+    }
+}
