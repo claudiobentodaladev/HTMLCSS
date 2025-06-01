@@ -36,7 +36,11 @@ select#ilang{
     font-weight: bolder;
     text-align: center;
     font-size: 17px;
+    transition: .5s;
     color: var(--letter-no);
+}
+select#ilang:hover{
+    scale: 95%;
 }
 option{
     margin: auto;
@@ -44,8 +48,6 @@ option{
     font-weight: bold;
     background-color: var(--letter-yes);
 }
-
-
 
 h1,p{
     text-shadow: 2px 2px 1px #00000049;
@@ -85,7 +87,6 @@ section#login{
     transition: width .3s, height .3s;
     transition-timing-function: ease;
 }
-
 
 input.box{
     float: right;
@@ -133,7 +134,6 @@ div#ipass,div#iemael,a#forget{
     width: 255px;
     height: 40px;
 }
-
 
 #forget{
     padding-top: 13px;
