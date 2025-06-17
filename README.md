@@ -12,7 +12,7 @@
 ![ANDROID](android/img/screenshot.png)
 ![CORDEL](cordel/img/screenshot.png)
 ![SOCILA MIDIA](social/img/screenshot.png)
-![LOGIN](image/screenshot.png)
+![LOGIN](login/image/screenshot.png)
 
 
 This repository contains **HTML** and **CSS** exercises focused on building static and responsive web pages.
