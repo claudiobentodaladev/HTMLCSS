@@ -28,7 +28,8 @@
             /* FROM: 
             grid-template-rows: 100px 100px 100px;
             grid-template-columns: auto auto auto;
-            TO: */ grid-template: 100px 100px 100px / auto auto auto;
+            TO: */ 
+            grid-template: /* FROM: 100px 100px 100px. TO: */ repeat(3, 100px) / /* FROM: auto auto auto. TO: */ repeat(3, 1fr);
 
             grid-auto-rows: 100px;
         }
