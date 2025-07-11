@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+}
+div{
+    height: 100px;
+    background-color: #1ebebe;
+}
+article{
+    height: calc(100vh - 100px);
+    background-color: grey;
+}
