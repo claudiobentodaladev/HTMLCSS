@@ -1,0 +1,5 @@
+@import url(color.css);
+
+p{
+    color: var(--color);
+}
