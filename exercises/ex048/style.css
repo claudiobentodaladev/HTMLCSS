@@ -1,0 +1,28 @@
+div.moreContent{
+    & {
+        padding: 10px;
+        border-radius: 10px;
+        background-color: gray;
+    }
+    & h2{
+        color: white;
+        text-align: center;
+    
+    }
+    & p{
+        font-weight: bolder;
+        color: white;
+    }
+    
+    & section{
+        & {
+            border-radius: 10px;
+            padding: 5px;
+            background-color: darkgreen;
+        }
+        & p{
+            text-align: center;
+
+        }
+    }
+}
