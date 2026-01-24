@@ -2,17 +2,17 @@
 
 ## 🔗 Visit all project
 
-📍 [ANDROID HISTORY](https://claudiobentodaladev.github.io/HTMLCSS/android/)
-📍 [CORDEL](https://claudiobentodaladev.github.io/HTMLCSS/cordel)
-📍 [SOCIAL MIDIA](https://claudiobentodaladev.github.io/HTMLCSS/social)
-📍 [LOGIN](https://claudiobentodaladev.github.io/HTMLCSS/login)
+📍 [ANDROID HISTORY](https://claudiobentodaladev.github.io/HTMLCSS/projects/android/)
+📍 [CORDEL](https://claudiobentodaladev.github.io/HTMLCSS/projects/cordel)
+📍 [SOCIAL MIDIA](https://claudiobentodaladev.github.io/HTMLCSS/projects/social)
+📍 [LOGIN](https://claudiobentodaladev.github.io/HTMLCSS/projects/login)
 
 ## 📷 Screenshots
 
-![ANDROID](android/img/screenshot.png)
-![CORDEL](cordel/img/screenshot.png)
-![SOCILA MIDIA](social/img/screenshot.png)
-![LOGIN](login/image/screenshot.png)
+![ANDROID](projects/android/img/screenshot.png)
+![CORDEL](projects/cordel/img/screenshot.png)
+![SOCILA MIDIA](projects/social/img/screenshot.png)
+![LOGIN](projects/login/image/screenshot.png)
 
 
 This repository contains **HTML** and **CSS** exercises focused on building static and responsive web pages.
