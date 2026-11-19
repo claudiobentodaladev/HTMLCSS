@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        height: 100vh;
+        background-color: whitesmoke;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    form{
+        &{
+            width: 250px;
+            height: 70px;
+            background-color: #45b2da;
+            padding: 30px;
+            border-radius: 15px;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+        & > div{
+            & > label{
+                font-size: 18px;
+            }
+            & > input{
+                height: 25px;
+            }
+            & > p{
+                text-align: center;
+            }
+        }
+    }
+</style>
+<body>
+    <form method="post">
+        <div>
+            <label for="iText">Email</label>         
+            <input type="text" name="text" id="iText" placeholder="email aqui">
+            <p id="iWarn">Introduza um email!</p>
+        </div>
+    </form>
+
+    <script>
+        let input = document.querySelector("#iText");
+        let regexEmail = /([a-z0-9\.\-]{2,})\@([a-z0-9]{2,})\.([\.a-z0-9]{2,})([\.a-z0-9]{2,})?/gi;
+        
+        input.addEventListener("keydown", ()=>{
+            if(!input.value) {
+                document.querySelector("#iWarn").style.color = "inherit"
+                document.querySelector("#iWarn").innerText = "Introduza um email!"
+                return;
+            }
+
+            if (!regexEmail.test(input.value)) {
+                document.querySelector("#iWarn").style.color = "#b20c0c"
+                document.querySelector("#iWarn").innerText = "Email invalido, tente denovo!"
+            } else{
+                document.querySelector("#iWarn").style.color = "green"
+                document.querySelector("#iWarn").innerText = "Email validao, bem feito!"
+            }
+        })
+    </script>
+</body>
+</html>
